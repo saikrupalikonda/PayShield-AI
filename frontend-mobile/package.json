@@ -1,0 +1,14 @@
+{
+  "name": "payshield-mobile-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "build": "echo 'No build step required for this demo'"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "serve": "^14.2.0"
+  }
+}

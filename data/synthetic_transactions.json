@@ -1,0 +1,41 @@
+[
+  {
+    "transaction_id": "txn_001",
+    "user_id": "user_101",
+    "payee": "Airtel Recharge",
+    "amount": 250,
+    "timestamp": "2026-09-01T09:00:00Z",
+    "history_count": 4,
+    "usual_amount": 200,
+    "z_score": 0.4,
+    "is_recurring_payee": true,
+    "is_spike": false,
+    "label": "legit"
+  },
+  {
+    "transaction_id": "txn_002",
+    "user_id": "user_101",
+    "payee": "Random UPI ID",
+    "amount": 15000,
+    "timestamp": "2026-09-01T13:40:00Z",
+    "history_count": 0,
+    "usual_amount": 500,
+    "z_score": 4.5,
+    "is_recurring_payee": false,
+    "is_spike": true,
+    "label": "fraud"
+  },
+  {
+    "transaction_id": "txn_003",
+    "user_id": "user_102",
+    "payee": "Coffee Cafe",
+    "amount": 320,
+    "timestamp": "2026-09-02T08:20:00Z",
+    "history_count": 6,
+    "usual_amount": 280,
+    "z_score": 0.8,
+    "is_recurring_payee": true,
+    "is_spike": false,
+    "label": "legit"
+  }
+]

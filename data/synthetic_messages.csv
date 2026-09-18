@@ -1,0 +1,7 @@
+message_id,text,label,pattern_type
+msg_001,"Your refund is pending. Please confirm to receive the money now.",fraud,refund
+msg_002,"URGENT! Bank account verification required or payment will be blocked.",fraud,urgency
+msg_003,"This is SBI support calling to secure your account. Please respond immediately.",fraud,impersonation
+msg_004,"Your monthly electricity bill is due today.",legit,neutral
+msg_005,"We noticed an unusual transaction. Please verify your UPI details to avoid blockage.",fraud,urgency
+msg_006,"Your cashback refund request is active. Tap to approve.",fraud,refund
